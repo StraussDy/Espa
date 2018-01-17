@@ -23,7 +23,7 @@ session_start();
             <ul>
                 <li><a href="#intro">Bienvenue</a></li>
                 <li><a href="#one">Mes formations</a></li>
-                <li><a href="#two">Mes expériences</a></li>
+                <li><a href="#two">Expériences / Compétences</a></li>
                 <li><a href="#three">Contact</a></li>
             </ul>
         </nav>
@@ -88,43 +88,42 @@ session_start();
     <!-- Two -->
     <section id="two" class="wrapper style3 fade-up">
         <div class="inner">
-            <h2>Mes expériences</h2>
+            <h2>Expériences / Compétences</h2>
             <p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
             <div class="features">
                 <section>
+                    <span class="icon major fa-chain"></span>
+                    <h3>Technicien système réseau chez APRInfo</h3>
+                    <p>mai 2017 - sept. 2017 (5 mois)<br>
+                        Installation et maintenance de matériaux informatiques (Linux, Windows...)<br>
+                        Réalisation d'un brassage informatique</p>
+                </section>
+                <section>
                     <span class="icon major fa-code"></span>
-                    <h3>Lorem ipsum amet</h3>
-                    <p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+                    <h3>Administration de router</h3>
+                    <p>Maitrise des protocoles EIGRP, OSPF, RIP, Static, DNS, DHCP</p>
                 </section>
                 <section>
                     <span class="icon major fa-lock"></span>
-                    <h3>Aliquam sed nullam</h3>
-                    <p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+                    <h3>Sécurité réseau</h3>
+                    <p></p>
                 </section>
                 <section>
                     <span class="icon major fa-cog"></span>
-                    <h3>Sed erat ullam corper</h3>
-                    <p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+                    <h3>Autodidacte</h3>
+                    <p>Formation à la certification CCNA, Microsoft 70410, CCNP</p>
                 </section>
                 <section>
                     <span class="icon major fa-desktop"></span>
-                    <h3>Veroeros quis lorem</h3>
-                    <p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+                    <h3>Administration des postes client</h3>
+                    <p></p>
                 </section>
                 <section>
                     <span class="icon major fa-chain"></span>
                     <h3>Urna quis bibendum</h3>
                     <p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
                 </section>
-                <section>
-                    <span class="icon major fa-diamond"></span>
-                    <h3>Aliquam urna dapibus</h3>
-                    <p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-                </section>
             </div>
-            <ul class="actions">
-                <li><a href="#" class="button">Learn more</a></li>
-            </ul>
         </div>
     </section>
 
