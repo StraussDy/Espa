@@ -23,7 +23,7 @@ session_start();
             <ul>
                 <li><a href="#intro">Bienvenue</a></li>
                 <li><a href="#one">Mes formations</a></li>
-                <li><a href="#two">Expériences / Compétences</a></li>
+                <li><a href="#two">Compétences</a></li>
                 <li><a href="#three">Contact</a></li>
             </ul>
         </nav>
@@ -40,7 +40,7 @@ session_start();
             <p>Just another fine responsive site template designed by HTML5 UP<br />
                 and released for free under the Creative Commons.</p>
             <ul class="actions">
-                <li><a href="images/CV_CLAUSS_Dylan.pdf" target="_blank" class="button scrolly">Télécharger mon CV</a></li>
+                <li><a href="images/.pdf" target="_blank" class="button scrolly">Télécharger mon CV</a></li>
             </ul>
         </div>
     </section>
@@ -48,37 +48,27 @@ session_start();
     <!-- One -->
     <section id="one" class="wrapper style2 spotlights">
         <section>
-            <a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
+            <a href="#" class="image"><img src="images/ingesup.jpg" alt="" data-position="center center" /></a>
             <div class="content">
                 <div class="inner">
-                    <h2>Sed ipsum dolor</h2>
+                    <h2>Ingénierie informatique à YNOV Ingésup</h2>
                     <p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
                     <ul class="actions">
-                        <li><a href="#" class="button">Learn more</a></li>
+                        <li><a href="https://www.ingesup.com/" class="button">Ingésup.com</a></li>
                     </ul>
                 </div>
             </div>
         </section>
         <section>
-            <a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
+            <a href="#" class="image"><img src="images/logo.jpg" alt="" data-position="top center" /></a>
             <div class="content">
                 <div class="inner">
-                    <h2>Feugiat consequat</h2>
-                    <p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+                    <h2>Technicien système réseau chez APRInfo</h2>
+                    <p>mai 2017 - sept. 2017 (5 mois)<br>
+                        Installation et maintenance de matériaux informatiques (Linux, Windows...)<br>
+                        Réalisation d'un brassage informatique</p>
                     <ul class="actions">
-                        <li><a href="#" class="button">Learn more</a></li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-        <section>
-            <a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
-            <div class="content">
-                <div class="inner">
-                    <h2>Ultricies aliquam</h2>
-                    <p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
-                    <ul class="actions">
-                        <li><a href="#" class="button">Learn more</a></li>
+                        <li><a href="#" class="button">En savoir plus</a></li>
                     </ul>
                 </div>
             </div>
@@ -91,13 +81,6 @@ session_start();
             <h2>Expériences / Compétences</h2>
             <p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
             <div class="features">
-                <section>
-                    <span class="icon major fa-chain"></span>
-                    <h3>Technicien système réseau chez APRInfo</h3>
-                    <p>mai 2017 - sept. 2017 (5 mois)<br>
-                        Installation et maintenance de matériaux informatiques (Linux, Windows...)<br>
-                        Réalisation d'un brassage informatique</p>
-                </section>
                 <section>
                     <span class="icon major fa-code"></span>
                     <h3>Administration de router</h3>
@@ -117,11 +100,6 @@ session_start();
                     <span class="icon major fa-desktop"></span>
                     <h3>Administration des postes client</h3>
                     <p></p>
-                </section>
-                <section>
-                    <span class="icon major fa-chain"></span>
-                    <h3>Urna quis bibendum</h3>
-                    <p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
                 </section>
             </div>
         </div>
