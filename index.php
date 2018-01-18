@@ -40,7 +40,7 @@ session_start();
             <p>Just another fine responsive site template designed by HTML5 UP<br />
                 and released for free under the Creative Commons.</p>
             <ul class="actions">
-                <li><a href="images/.pdf" target="_blank" class="button scrolly">Télécharger mon CV</a></li>
+                <li><a href="images/CV.pdf" target="_blank" class="button scrolly">Télécharger mon CV</a></li>
             </ul>
         </div>
     </section>
@@ -54,7 +54,7 @@ session_start();
                     <h2>Ingénierie informatique à YNOV Ingésup</h2>
                     <p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
                     <ul class="actions">
-                        <li><a href="https://www.ingesup.com/" class="button">Ingésup.com</a></li>
+                        <li><a href="https://www.ingesup.com/" target="_blank" class="button">Ingésup.com</a></li>
                     </ul>
                 </div>
             </div>
@@ -67,9 +67,6 @@ session_start();
                     <p>mai 2017 - sept. 2017 (5 mois)<br>
                         Installation et maintenance de matériaux informatiques (Linux, Windows...)<br>
                         Réalisation d'un brassage informatique</p>
-                    <ul class="actions">
-                        <li><a href="#" class="button">En savoir plus</a></li>
-                    </ul>
                 </div>
             </div>
         </section>
