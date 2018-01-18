@@ -37,8 +37,7 @@ session_start();
     <section id="intro" class="wrapper style1 fullscreen fade-up">
         <div class="inner">
             <h1>Jérémie Esparel</h1>
-            <p>Just another fine responsive site template designed by HTML5 UP<br />
-                and released for free under the Creative Commons.</p>
+            <p>Administrateur système en formation, pour ma deuxième année à l'école YNOV Ingésup.</p>
             <ul class="actions">
                 <li><a href="images/CV.pdf" target="_blank" class="button scrolly">Télécharger mon CV</a></li>
             </ul>
@@ -52,7 +51,7 @@ session_start();
             <div class="content">
                 <div class="inner">
                     <h2>Ingénierie informatique à YNOV Ingésup</h2>
-                    <p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+                    <p>Dans le cadre de ma formation : Réalisation d’un projet d’infrastructure réseau sur Cisco packet tracer</p>
                     <ul class="actions">
                         <li><a href="https://www.ingesup.com/" target="_blank" class="button">Ingésup.com</a></li>
                     </ul>
@@ -75,8 +74,7 @@ session_start();
     <!-- Two -->
     <section id="two" class="wrapper style3 fade-up">
         <div class="inner">
-            <h2>Expériences / Compétences</h2>
-            <p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
+            <h2>Compétences</h2>
             <div class="features">
                 <section>
                     <span class="icon major fa-code"></span>
@@ -118,7 +116,6 @@ session_start();
                 <?php unset($_SESSION['success']); endif; ?>
 
             <h2>Contact</h2>
-            <p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
             <div class="split style1">
                 <section>
                     <form method="post" action="post_contact.php">
@@ -142,18 +139,12 @@ session_start();
                 <section>
                     <ul class="contact">
                         <li>
-                            <h3>Address</h3>
-                            <span>12345 Somewhere Road #654<br />
-											Nashville, TN 00000-0000<br />
-											USA</span>
-                        </li>
-                        <li>
                             <h3>Email</h3>
                             <a href="mailto:jeremie.esparel@ynov.com">jeremie.esparel@ynov.com</a>
                         </li>
                         <li>
-                            <h3>Phone</h3>
-                            <span>(000) 000-0000</span>
+                            <h3>Téléphone</h3>
+                            <span>06 02 39 87 39</span>
                         </li>
                         <li>
                             <h3>Social</h3>
