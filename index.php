@@ -22,9 +22,10 @@ session_start();
         <nav>
             <ul>
                 <li><a href="#intro">Bienvenue</a></li>
-                <li><a href="#one">Mes formations</a></li>
-                <li><a href="#two">Compétences</a></li>
-                <li><a href="#three">Contact</a></li>
+                <li><a href="#one">Ma formation</a></li>
+                <li><a href="#two">Mes expériences</a></li>
+                <li><a href="#three">Mes compétences</a></li>
+                <li><a href="#four">Contact</a></li>
             </ul>
         </nav>
     </div>
@@ -36,6 +37,7 @@ session_start();
     <!-- Intro -->
     <section id="intro" class="wrapper style1 fullscreen fade-up">
         <div class="inner">
+            <img src="images/fekir.jpg" alt="" />
             <h1>Jérémie Esparel</h1>
             <p>Administrateur système en formation, pour ma deuxième année à l'école YNOV Ingésup.</p>
             <ul class="actions">
@@ -58,6 +60,10 @@ session_start();
                 </div>
             </div>
         </section>
+    </section>
+
+    <!-- Two -->
+    <section id="two" class="wrapper style2 spotlights tech">
         <section>
             <a href="#" class="image"><img src="images/logo.jpg" alt="" data-position="top center" /></a>
             <div class="content">
@@ -69,12 +75,30 @@ session_start();
                 </div>
             </div>
         </section>
+        <section>
+            <a href="#" class="image"><img src="images/logo.jpg" alt="" data-position="top center" /></a>
+            <div class="content">
+                <div class="inner">
+                    <h2></h2>
+                    <p></p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <a href="#" class="image"><img src="images/logo.jpg" alt="" data-position="top center" /></a>
+            <div class="content">
+                <div class="inner">
+                    <h2></h2>
+                    <p></p>
+                </div>
+            </div>
+        </section>
     </section>
 
-    <!-- Two -->
-    <section id="two" class="wrapper style3 fade-up">
+    <!-- Three -->
+    <section id="three" class="wrapper style3 fade-up">
         <div class="inner">
-            <h2>Compétences</h2>
+            <h2>Mes compétences</h2>
             <div class="features">
                 <section>
                     <span class="icon major fa-code"></span>
@@ -100,8 +124,8 @@ session_start();
         </div>
     </section>
 
-    <!-- Three -->
-    <section id="three" class="wrapper style1 fade-up">
+    <!-- Four -->
+    <section id="four" class="wrapper style1 fade-up">
         <div class="inner">
 
             <?php if(array_key_exists('errors',$_SESSION)): ?>
@@ -120,7 +144,7 @@ session_start();
                 <section>
                     <form method="post" action="post_contact.php">
                         <div class="field half first">
-                            <label for="name">Nom Prénom</label>
+                            <label for="name">Nom</label>
                             <input type="text" name="name" id="name" />
                         </div>
                         <div class="field half">

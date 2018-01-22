@@ -17,7 +17,7 @@ $errors = array();
   if(!empty($errors)){
     $_SESSION['errors'] = $errors;//on stocke les erreurs
     $_SESSION['inputs'] = $_POST;
-  header('Location: index.php#three');
+  header('Location: index.php#four');
   }
 
   else{
@@ -44,5 +44,5 @@ $errors = array();
   </table>
   ';
 mail($to, $subject, $message_content, $headers);
-  header('Location: index.php#three');
+  header('Location: index.php#four');
   }

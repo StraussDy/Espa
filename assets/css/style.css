@@ -3,7 +3,16 @@
 }
 
 .wrapper.style1-alt {
-    background-color: #2c3c82;
+    background-color: #4573a6;
+}
+
+.wrapper.style2.spotlights {
+    background-color:  #2e4053;
+}
+
+.wrapper.style2.spotlights.tech {
+    background-color:   #34495e
+;
 }
 
 .wrapper.style3 {
@@ -48,4 +57,10 @@
     border-bottom-color: transparent;
     border-left-color: transparent;
     border-radius: 4px;
+}
+
+div .inner img {
+    border-radius: 70px;
+    width: 150px;
+    margin-bottom: 10px;
 }
